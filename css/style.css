@@ -652,6 +652,14 @@ a {
   .b-graph .b-dot {
     font-size: 14px;
   }
+  .s-l {
+    margin-left: calc(50% - 160px);
+    gap: 6px;
+  }
+  .s-l .b-before,
+  .s-l .b-watersign {
+    margin-left: calc(24% - 160px);
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -706,6 +714,14 @@ a {
   }
   .b-graph .b-dot {
     font-size: 18px;
+  }
+  .s-l {
+    margin-left: calc(50% - 160px);
+    gap: 6px;
+  }
+  .s-l .b-before,
+  .s-l .b-watersign {
+    margin-left: calc(24% - 160px);
   }
 }
 
@@ -1132,7 +1148,19 @@ a {
     color: #f63900;
   }
 }
-
+@media screen and (max-width: 522px) {
+  .s-l .b-img {
+    width: 50%;
+  }
+  .s-l {
+    margin-left: calc(50% - 160px);
+    gap: 6px;
+  }
+  .s-l .b-before,
+  .s-l .b-watersign {
+    margin-left: calc(50% - 160px);
+  }
+}
 .b-link {
   color: #055ced;
   transition: 0.4s;
